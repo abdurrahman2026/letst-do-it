@@ -3,11 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* seard Slyles */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
 
+/* sam jinis */
+
 header{
-    background: #FFF8F3;
+    margin-top: 51px;
+      background: #FFF8F3;
 }
+
+.btn{
+    width: 150px;
+    height: 65px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    align-items: center;
+}
+
+nav .logo h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+nav .logo .extra{
+    color: #FD6E0A ;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 51px ;
+    font-size: 20px;
+    list-style: none;
+}
+
+nav ul  a{
+    color: #474747;
+    text-decoration: none;
+}
+
